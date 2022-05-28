@@ -1,0 +1,41 @@
+Arguments: 
+  /home/kelvi/.nvm/versions/node/v16.14.2/bin/node /usr/share/yarn/bin/yarn.js add --dev @babel/core @babel/preset-react @babel/loader bootstrap css-loader html-webpack-plugin react react-dom react-router-dom reactstrap style-loader webpack webpack-cli webpack-dev-server
+
+PATH: 
+  /home/kelvi/.nvm/versions/node/v16.14.2/bin:/usr/src/linux-headers-5.17.0-5.1-liquorix-amd64/tools/power/x86/x86_energy_perf_policy:/usr/src/linux-headers-5.17.0-5.1-liquorix-amd64/tools/power/x86/turbostat:/usr/src/linux-headers-5.17.0-5.1-liquorix-amd64/tools/power/cpupower:/usr/src/linux-headers-5.17.0-5.1-liquorix-amd64/tools/perf:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kelvi/Android/Sdk/emulator:/home/kelvi/Android/Sdk/tools:/home/kelvi/Android/Sdk/tools/bin:/home/kelvi/Android/Sdk/platform-tools:/home/kelvi/android-studio/bin:/home/kelvi/Android/Sdk/emulator:/home/kelvi/Android/Sdk/tools:/home/kelvi/Android/Sdk/tools/bin:/home/kelvi/Android/Sdk/platform-tools:/home/kelvi/android-studio/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2floader: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
