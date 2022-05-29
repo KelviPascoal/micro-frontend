@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 
-export function Home() {
+function Home() {
     return (
         <>
                 <h1 className="display-3">Olá Module Federation</h1>
@@ -14,3 +14,5 @@ export function Home() {
         </>
     )
 }
+
+export default Home;
